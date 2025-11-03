@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@plugin "daisyui" {
+  themes: {
+    light: {
+      "primary": "#632EE3",
+      "secondary": "#9F62F2",
+      "base-100": "#FFFFFF",
+    },
+  }
+}
