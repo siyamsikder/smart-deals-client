@@ -5,7 +5,48 @@
     light: {
       "primary": "#632EE3",
       "secondary": "#9F62F2",
+      "accent": "#E0C3FC",
+      "neutral": "#2A2E37",
       "base-100": "#FFFFFF",
+      "info": "#93C5FD",
+      "success": "#34D399",
+      "warning": "#FBBF24",
+      "error": "#F87171",
     },
-  }
+    dark: {
+      "primary": "#9F62F2",
+      "secondary": "#632EE3",
+      "accent": "#C084FC",
+      "neutral": "#1E1E2F",
+      "base-100": "#121212",
+      "info": "#60A5FA",
+      "success": "#10B981",
+      "warning": "#F59E0B",
+      "error": "#EF4444",
+    },
+  },
+}
+
+/* 🌈 Gradient Style for Primary Buttons */
+.btn-primary {
+  background-image: linear-gradient(to right,#8b5cf6, #7c3aed);
+  color: #fff;
+  font-weight: 500;
+  border: none;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-image: linear-gradient(to right, #7c3aed, #8b5cf6);
+  transform: scale(1.05);
+}
+
+/* Links with Primary Accent */
+a {
+  color: #632EE3;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #9F62F2;
 }
